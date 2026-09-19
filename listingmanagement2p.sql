@@ -17,14 +17,14 @@ CREATE TABLE `amenities` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 INSERT INTO `amenities` (`amenity_id`, `amenity_name`, `icon`) VALUES
-(1, 'Furnished Rooms',    '🛏️'),
-(2, 'Fibre WiFi',         '📶'),
-(3, 'Kitchen Access',     '🍳'),
-(4, 'Free Parking',       '🅿️'),
-(5, 'Laundry',            '🧺'),
-(6, 'Study Areas',        '📚'),
-(7, '24/7 Security',      '🛡️'),
-(8, 'Private Bathrooms',  '🚿');
+(1, 'Furnished Rooms',    ''),
+(2, 'Fibre WiFi',         ''),
+(3, 'Kitchen Access',     ''),
+(4, 'Free Parking',       ''),
+(5, 'Laundry',            ''),
+(6, 'Study Areas',        ''),
+(7, '24/7 Security',      ''),
+(8, 'Private Bathrooms',  '');
 
 CREATE TABLE `property_amenities` (
   `property_id` INT(11) NOT NULL,
